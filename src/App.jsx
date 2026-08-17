@@ -18,7 +18,6 @@ function handleupdate(e){
     setError("Pls write something")
     return;
   }
-  setError("");
   setNotetxt("");
   const Newarray = ([...list,notetxt]);
   setList(Newarray);
